@@ -14,7 +14,9 @@ const Landing = () => {
                     <Readmore />
                 </div>
                 <div className='sm:flex '>
-                <img className='slide-in-left w-79 h-70 object-cover object-right' src="https://t4.ftcdn.net/jpg/15/91/74/11/360_F_1591741147_4oqX7uafiIxZbArZJAEG37QVLjyVeQQ7.jpg" alt="" />
+                <img className='slide-in-left w-84 h-80 object-cover object-right' src="https://t4.ftcdn.net/jpg/15/91/74/11/360_F_1591741147_4oqX7uafiIxZbArZJAEG37QVLjyVeQQ7.jpg" alt="" />
+                <div className='flex flex-col p-3 gap-2 '><Readmore />
+                    <Readmore /></div>
                 </div>
             </div>
             <div className='relative'>
